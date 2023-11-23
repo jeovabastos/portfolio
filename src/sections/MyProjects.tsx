@@ -33,9 +33,9 @@ export default function MyProjects(){
           </div>
         </section>
 
-        {/* Acre Links */}
+        {/* Link HUB */}
         <section className='p-4 lg:p-0 mx-auto mt-8 w-full lg:w-[640px] flex flex-col justify-center items-center'>
-          <h2 className='flex justify-center lg:justify-start text-left w-full text-2xl'>Link hub</h2>
+          <h2 className='flex justify-center lg:justify-start text-left w-full text-2xl'>Link HUB</h2>
 
           <div className='flex flex-1 mt-4 flex-col lg:flex-row'>
             {/* LEFT */}
@@ -55,8 +55,8 @@ export default function MyProjects(){
               </div>
 
               <div className='flex'>
-                <Button buttonType='style_1' href='https://acreanosama-links.vercel.app/'>Live Preview</Button>
-                <Button buttonType='style_2' href='https://github.com/jeovabastos/acreamosama-links'>Source Code</Button>
+                <Button buttonType='style_1' href='https://linkhub-jeovabastos.vercel.app/'>Live Preview</Button>
+                <Button buttonType='style_2' href='https://github.com/jeovabastos/linkhub'>Source Code</Button>
               </div>
             </div>                    
           </div>
