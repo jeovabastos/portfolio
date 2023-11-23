@@ -18,7 +18,7 @@ export default function Button({ children, href, buttonType }: { children: strin
     return (
         <>
             <button className={style + ' py-2 w-full flex justify-center'}>
-                <a href={href}>
+                <a target="_blank" href={href}>
                     {children}
                 </a>
             </button>
