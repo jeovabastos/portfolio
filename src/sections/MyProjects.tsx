@@ -16,7 +16,7 @@ export default function MyProjects(){
 
             {/* RIGHT */}
             <div className='flex flex-col gap-4 w-full lg:w-1/2 px-4 py-2'>
-              <p>A personal frontend portfolio made with:</p>
+              <p>Um portfolio frontend pessoal feito com:</p>
 
               <div className='flex flex-wrap justify-around items-start'>
                 <StackItem src='/figma.svg'>Figma</StackItem>
@@ -26,8 +26,8 @@ export default function MyProjects(){
               </div>
 
               <div className='flex'>
-                <Button buttonType='style_1' href=''>Live Preview</Button>
-                <Button buttonType='style_2' href=''>Source Code</Button>
+                <Button buttonType='style_1' href=''>Visualizar</Button>
+                <Button buttonType='style_2' href=''>Codígo fonte</Button>
               </div>
             </div>                    
           </div>
@@ -45,7 +45,7 @@ export default function MyProjects(){
 
             {/* RIGHT */}
             <div className='flex flex-col gap-4 w-full lg:w-1/2 px-4 py-2'>
-              <p>A linktr.ee inspirated link hub made with:</p>
+              <p>Um agregador de links feito com:</p>
 
               <div className='flex flex-wrap justify-around items-start'>
                 <StackItem src='/figma.svg'>Figma</StackItem>
@@ -55,8 +55,8 @@ export default function MyProjects(){
               </div>
 
               <div className='flex'>
-                <Button buttonType='style_1' href='https://linkhub-jeovabastos.vercel.app/'>Live Preview</Button>
-                <Button buttonType='style_2' href='https://github.com/jeovabastos/linkhub'>Source Code</Button>
+                <Button buttonType='style_1' href='https://linkhub-jeovabastos.vercel.app/'>Visualizar</Button>
+                <Button buttonType='style_2' href='https://github.com/jeovabastos/linkhub'>Codígo fonte</Button>
               </div>
             </div>                    
           </div>
@@ -74,7 +74,7 @@ export default function MyProjects(){
 
             {/* RIGHT */}
             <div className='flex flex-col gap-4 w-full lg:w-1/2 px-4 py-2'>
-              <p>A frontend for an RPG <br/>e-commerce application:</p>
+              <p>Um frontend para um <br/>e-commerce focado em RPG:</p>
 
               <div className='flex flex-wrap justify-around items-start'>
                 <StackItem src='/redux.svg'>Redux</StackItem>
@@ -84,8 +84,8 @@ export default function MyProjects(){
               </div>
 
               <div className='flex'>
-                <Button buttonType='style_1' href='https://primordial-loot.vercel.app/'>Live Preview</Button>
-                <Button buttonType='style_2' href='https://github.com/jeovabastos/primordial-loot'>Source Code</Button>
+                <Button buttonType='style_1' href='https://primordial-loot.vercel.app/'>Visualizar</Button>
+                <Button buttonType='style_2' href='https://github.com/jeovabastos/primordial-loot'>Codígo fonte</Button>
               </div>
             </div>                    
           </div>

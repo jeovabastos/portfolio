@@ -7,7 +7,7 @@ export default function SkillsDescription() {
                 </div>
 
                 <p className='w-full lg:w-1/2 flex justify-center items-center px-4 py-2'>
-                    I also have illustration skills <br />which I apply to my projects, <br />like SVGs, Ui/Ux and more...
+                    Eu também estou estudando backend, possuo habilidades de design, gosto de jogos e de escrever...
                 </p>
             </section>
         </>
