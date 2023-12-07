@@ -31,6 +31,13 @@ export default function MyProjects(){
               </div>
             </div>                    
           </div>
+
+          <div className="px-4 mx-auto w-full text-base">
+            <ul>
+              <li>Desenvolvi este site para aplicar meus conhecimentos de Ux/Ui.</li>
+              <li>Escolhi usar o Tailwind para padronizar os estilos.</li>
+            </ul>
+          </div>
         </section>
 
         {/* Link HUB */}
@@ -59,6 +66,13 @@ export default function MyProjects(){
                 <Button buttonType='style_2' href='https://github.com/jeovabastos/linkhub'>Codígo fonte</Button>
               </div>
             </div>                    
+          </div>
+
+          <div className="text-base px-4 mx-auto w-full">
+            <ul>
+              <li>O projeto reune todos os meus principais links em um lugar.</li>
+              <li>Utilizei o Tailwind para padronizar os estilos.</li>
+            </ul>
           </div>
         </section>
 
@@ -89,8 +103,35 @@ export default function MyProjects(){
               </div>
             </div>                    
           </div>
+
+          <div className="text-base px-4 mx-auto w-full">
+            <ul>
+              <li>Fiz a prototipação do projeto com Figma, tanto o design mobile quanto o desktop.</li>
+              <li>Utilizei Vite + React para modular o projeto, facilitando a criação e a manutenção de cada parte do site.</li>
+              <li>Também fiz uso do Typescript + Redux, melhorando o gerenciamento de estados globais e a correção de bugs.</li>
+              <li>Fiz o deploy da aplicação através da Vercel e utilizei o Git e o Github para versionar o projeto. </li>
+            </ul>
+          </div>
         </section>
-        
+
+        {/* Primordial Loot */}
+        <section className='p-4 lg:p-0 mx-auto mt-8 w-full lg:w-[640px] flex flex-col justify-center items-center'>
+          <h2 className='flex justify-center lg:justify-start text-left w-full text-2xl'>Gotchi-chan!</h2>
+
+          <div className='flex flex-1 mt-4 flex-col lg:flex-row'>
+            <div className='w-full'>
+              <img src='/Tamagotchi.png' className='block'/>
+            </div>  
+          </div>
+
+          <div className="text-base px-4 mx-auto w-full">
+            <ul>
+              <li>Gotchi-chan vem aí!</li>
+              <li>Um frontend para um Tamagotchi.</li>
+            </ul>
+          </div>
+        </section>
+
         </>
     )
 }
