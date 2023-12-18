@@ -18,7 +18,7 @@ export default function SelfDescription() {
                     <div className='flex flex-col gap-4'>
                         <div className='flex gap-2'>
                             <img className='w-12 h-12' src='resume.svg' alt='img' />
-                            <Button buttonType='style_1' href=''>Currículo</Button>
+                            <Button buttonType='style_1' href='https://dinarkia.notion.site/Jeov-Bastos-7f39eae9f7814af28f0e3b1378f6c3ea'>Currículo</Button>
                         </div>
 
                         <div className='flex gap-2'>
