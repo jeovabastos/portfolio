@@ -114,22 +114,24 @@ export default function MyProjects(){
           </div>
         </section>
 
-        {/* Primordial Loot */}
+        {/* Tamagotchi */}
         <section className='p-4 lg:p-0 mx-auto mt-8 w-full lg:w-[640px] flex flex-col justify-center items-center'>
-          <h2 className='flex justify-center lg:justify-start text-left w-full text-2xl'>Gotchi-chan!</h2>
+          <h2 className='flex justify-center lg:justify-start text-left w-full text-2xl'>Tamagotchi</h2>
 
           <div className='flex flex-1 mt-4 flex-col lg:flex-row'>
             <div className='w-full'>
-              <img src='/Tamagotchi.png' className='block'/>
+              <img src='/PET.png' className='block'/>
             </div>  
           </div>
 
-          <div className="text-base px-4 mx-auto w-full">
+          <div className="mb-8 text-base px-4 mx-auto w-full">
             <ul>
               <li>Gotchi-chan vem aí!</li>
               <li>Um frontend para um Tamagotchi.</li>
             </ul>
           </div>
+
+          <button><a className="block w-[128px] px-4 py-2 text-white bg-cyan-400" href="https://tamagotchi-omega.vercel.app/">Visualizar</a></button>
         </section>
 
         </>
