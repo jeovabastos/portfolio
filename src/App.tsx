@@ -2,6 +2,7 @@ import './App.css'
 import MyProjects from './sections/MyProjects'
 import SelfDescription from './sections/SelfDescription'
 import SkillsDescription from './sections/SkillsDescription'
+import SocialMedia from './sections/SocialMedia'
 
 function App() {
 
@@ -21,8 +22,10 @@ function App() {
 
         {/* My Projects */}
         <h2 className='border-b border-cyan-400 lg:w-[640px] mx-auto flex justify-center text-3xl mt-16'>Meus Projetos</h2>
-
         <MyProjects/>
+
+        <h2 className='border-b border-cyan-400 lg:w-[640px] mx-auto flex justify-center text-3xl mt-16'>Criação de conteúdo</h2>
+        <SocialMedia/>
 
         <footer className='flex m-auto justify-center p-8 mt-16 bg-cyan-400'>
           <p>Todos os direitos reservados.</p>
