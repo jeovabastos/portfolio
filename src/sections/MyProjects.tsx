@@ -26,8 +26,8 @@ export default function MyProjects(){
               </div>
 
               <div className='flex'>
-                <Button buttonType='style_1' href=''>Visualizar</Button>
-                <Button buttonType='style_2' href=''>Codígo fonte</Button>
+                <Button buttonType='style_1' href='https://www.jbastos.dev/'>Visualizar</Button>
+                <Button buttonType='style_2' href='https://github.com/jeovabastos/portfolio'>Codígo fonte</Button>
               </div>
             </div>                    
           </div>
