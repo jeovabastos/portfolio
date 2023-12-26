@@ -131,7 +131,10 @@ export default function MyProjects(){
             </ul>
           </div>
 
-          <button><a className="block w-[128px] px-4 py-2 text-white bg-cyan-400" href="https://tamagotchi-omega.vercel.app/">Visualizar</a></button>
+          <div className="flex flex-1 w-fit items-center justify-center">
+            <button><a className="px-8 hover:bg-cyan-600 hover:text-2xl block py-2 text-white bg-cyan-400 border border-cyan-400" href="https://tamagotchi-omega.vercel.app/" target="_blank">Visualizar</a></button>
+            <button><a className="px-4 block py-2 text-black border border-cyan-400 hover:bg-cyan-600 hover:text-white" href="https://github.com/jeovabastos/tamagotchi" target="_blank">Código fonte</a></button>
+          </div>
         </section>
 
         </>
