@@ -8,14 +8,14 @@ export default function MyProjects(){
         <section className='mx-auto mt-8 lg:w-[640px] flex flex-col justify-center items-center'>
           <h2 className='flex justify-center lg:justify-start text-left w-full text-2xl'>Portfolio Web Site</h2>
 
-          <div className='p-4 lg:p-0 flex flex-1 mt-4 flex-col lg:flex-row'>
+          <div className='p-4 lg:p-0 flex flex-1 mt-4 flex-col'>
             {/* LEFT */}
-            <div className='w-full lg:w-1/2'>
-              <img src='/Portfolio.png' className='block'/>
+            <div className='flex w-full'>
+              <img src='/portfolio.png' className='flex my-auto'/>
             </div>  
 
             {/* RIGHT */}
-            <div className='flex flex-col gap-4 w-full lg:w-1/2 px-4 py-2'>
+            <div className='flex flex-col gap-4 w-full px-4 py-2'>
               <p>Um portfolio frontend pessoal feito com:</p>
 
               <div className='flex flex-wrap justify-around items-start'>
@@ -41,17 +41,17 @@ export default function MyProjects(){
         </section>
 
         {/* Link HUB */}
-        <section className='p-4 lg:p-0 mx-auto mt-8 w-full lg:w-[640px] flex flex-col justify-center items-center'>
+        <section className='mx-auto mt-8 lg:w-[640px] flex flex-col justify-center items-center'>
           <h2 className='flex justify-center lg:justify-start text-left w-full text-2xl'>Link HUB</h2>
 
-          <div className='flex flex-1 mt-4 flex-col lg:flex-row'>
+          <div className='p-4 lg:p-0 flex flex-1 mt-4 flex-col'>
             {/* LEFT */}
-            <div className='w-full lg:w-1/2'>
-              <img src='/AcreLinks.png' className='block'/>
+            <div className='flex w-full'>
+              <img src='/linkHub.png' className='flex my-auto'/>
             </div>  
 
             {/* RIGHT */}
-            <div className='flex flex-col gap-4 w-full lg:w-1/2 px-4 py-2'>
+            <div className='flex flex-col gap-4 w-full px-4 py-2'>
               <p>Um agregador de links feito com:</p>
 
               <div className='flex flex-wrap justify-around items-start'>
@@ -80,14 +80,14 @@ export default function MyProjects(){
         <section className='p-4 lg:p-0 mx-auto mt-8 w-full lg:w-[640px] flex flex-col justify-center items-center'>
           <h2 className='flex justify-center lg:justify-start text-left w-full text-2xl'>Primordial Loot</h2>
 
-          <div className='flex flex-1 mt-4 flex-col lg:flex-row'>
+          <div className='flex flex-1 mt-4 flex-col'>
             {/* LEFT */}
-            <div className='w-full lg:w-1/2'>
-              <img src='/PrimordialLoot.png' className='block'/>
+            <div className='flex w-full'>
+              <img src='/primordialLoot.png' className='flex my-auto'/>
             </div>  
 
             {/* RIGHT */}
-            <div className='flex flex-col gap-4 w-full lg:w-1/2 px-4 py-2'>
+            <div className='flex flex-col gap-4 w-full px-4 py-2'>
               <p>Um frontend para um <br/>e-commerce focado em RPG:</p>
 
               <div className='flex flex-wrap justify-around items-start'>
@@ -120,7 +120,7 @@ export default function MyProjects(){
 
           <div className='flex flex-1 mt-4 flex-col lg:flex-row'>
             <div className='w-full'>
-              <img src='/PET.png' className='block'/>
+              <img src='/tamagotchi.png' className='block'/>
             </div>  
           </div>
 
